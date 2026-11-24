@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Catalogue | JARM Supermarket</title>
+
     <link rel="stylesheet" href="../../assets/css/global.css">
+    <link rel="stylesheet" href="catalogue.css">
+
     <script src="../../assets/js/shared_main.js" defer></script>
     <script src="catalogue.js" defer></script>
 </head>
@@ -12,9 +15,17 @@
     
     <div id="header"></div>
 
-    <main id="main-content" class="site-container page-content" tabindex="-1">
+     <main id="main-content" class="site-container page-content" tabindex="-1">
         <h1>Product catalogue</h1>
-        <p>Product catalogue content will be added here.</p>
+        <p>Browse our range of supermarket products.</p>
+
+        <p id="product-count" role="status">
+            Loading products...
+        </p>
+
+        <ul id="product-grid" class="product-grid" aria-label="Supermarket products">
+            <!-- Products are loaded here by JavaScript -->
+        </ul>
     </main>
 
     <div id="footer"></div>

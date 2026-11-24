@@ -1,0 +1,66 @@
+/* Product catalogue grid */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr));
+    gap: 20px;
+
+    list-style: none;
+    padding: 0;
+    margin: 24px 0;
+}
+
+/* Individual product cards */
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    background-color: #fff;
+}
+
+.product-card article {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+/* Product images */
+.product-image {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: contain;
+    margin-bottom: 12px;
+}
+
+/* Product information */
+.product-card h2 {
+    font-size: 1.1rem;
+    margin: 8px 0;
+}
+
+.product-category {
+    color: #555;
+    font-size: 0.9rem;
+}
+
+.product-price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: auto;
+}
+
+.product-stock {
+    font-size: 0.9rem;
+}
+
+/* Smooth transition */
+.product-card {
+    transition: box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+/* Highlight product when hovered */
+@media (hover: hover) {
+    .product-card:hover {
+        border-color: #777;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    }
+}

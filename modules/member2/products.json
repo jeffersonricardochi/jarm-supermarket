@@ -1,0 +1,662 @@
+[
+  {
+    "id": "P001",
+    "name": "Red Apples",
+    "category": "Fruit & Vegetables",
+    "price": 1.89,
+    "currency": "GBP",
+    "size": "6 pack",
+    "image": "/assets/images/products/red-apples.jpg",
+    "description": "Crisp, sweet red eating apples.",
+    "ingredients": "Apples.",
+    "dietary": [
+      "vegan",
+      "vegetarian",
+      "gluten-free",
+      "dairy-free"
+    ],
+    "allergens": [],
+    "mayContain": [],
+    "inStock": true,
+    "stockQuantity": 35,
+    "nutritionPer": "100g",
+    "nutrition": {
+      "energyKcal": 52,
+      "fatG": 0.2,
+      "saturatesG": 0,
+      "carbohydratesG": 14,
+      "sugarsG": 10,
+      "fibreG": 2.4,
+      "proteinG": 0.3,
+      "saltG": 0.0
+    }
+  },
+  {
+    "id": "P002",
+    "name": "Bananas",
+    "category": "Fruit & Vegetables",
+    "price": 1.25,
+    "currency": "GBP",
+    "size": "5 pack",
+    "image": "/assets/images/products/bananas.jpg",
+    "description": "Ripe bananas, ideal for snacking and smoothies.",
+    "ingredients": "Bananas.",
+    "dietary": [
+      "vegan",
+      "vegetarian",
+      "gluten-free",
+      "dairy-free"
+    ],
+    "allergens": [],
+    "mayContain": [],
+    "inStock": true,
+    "stockQuantity": 50,
+    "nutritionPer": "100g",
+    "nutrition": {
+      "energyKcal": 89,
+      "fatG": 0.3,
+      "saturatesG": 0.1,
+      "carbohydratesG": 23,
+      "sugarsG": 12,
+      "fibreG": 2.6,
+      "proteinG": 1.1,
+      "saltG": 0.0
+    }
+  },
+  {
+    "id": "P003",
+    "name": "Broccoli",
+    "category": "Fruit & Vegetables",
+    "price": 0.95,
+    "currency": "GBP",
+    "size": "1 head (approx. 350g)",
+    "image": "/assets/images/products/broccoli.jpg",
+    "description": "Fresh broccoli florets and stalk.",
+    "ingredients": "Broccoli.",
+    "dietary": [
+      "vegan",
+      "vegetarian",
+      "gluten-free",
+      "dairy-free"
+    ],
+    "allergens": [],
+    "mayContain": [],
+    "inStock": true,
+    "stockQuantity": 18,
+    "nutritionPer": "100g",
+    "nutrition": {
+      "energyKcal": 34,
+      "fatG": 0.4,
+      "saturatesG": 0.1,
+      "carbohydratesG": 7,
+      "sugarsG": 1.7,
+      "fibreG": 2.6,
+      "proteinG": 2.8,
+      "saltG": 0.08
+    }
+  },
+  {
+    "id": "P004",
+    "name": "Baby Spinach",
+    "category": "Fruit & Vegetables",
+    "price": 1.45,
+    "currency": "GBP",
+    "size": "200g bag",
+    "image": "/assets/images/products/baby-spinach.jpg",
+    "description": "Washed baby spinach leaves for salads and cooking.",
+    "ingredients": "Baby spinach.",
+    "dietary": [
+      "vegan",
+      "vegetarian",
+      "gluten-free",
+      "dairy-free"
+    ],
+    "allergens": [],
+    "mayContain": [],
+    "inStock": true,
+    "stockQuantity": 27,
+    "nutritionPer": "100g",
+    "nutrition": {
+      "energyKcal": 23,
+      "fatG": 0.4,
+      "saturatesG": 0.1,
+      "carbohydratesG": 3.6,
+      "sugarsG": 0.4,
+      "fibreG": 2.2,
+      "proteinG": 2.9,
+      "saltG": 0.2
+    }
+  },
+  {
+    "id": "P005",
+    "name": "Cherry Tomatoes",
+    "category": "Fruit & Vegetables",
+    "price": 1.6,
+    "currency": "GBP",
+    "size": "250g punnet",
+    "image": "/assets/images/products/cherry-tomatoes.jpg",
+    "description": "Sweet cherry tomatoes.",
+    "ingredients": "Cherry tomatoes.",
+    "dietary": [
+      "vegan",
+      "vegetarian",
+      "gluten-free",
+      "dairy-free"
+    ],
+    "allergens": [],
+    "mayContain": [],
+    "inStock": true,
+    "stockQuantity": 30,
+    "nutritionPer": "100g",
+    "nutrition": {
+      "energyKcal": 18,
+      "fatG": 0.2,
+      "saturatesG": 0,
+      "carbohydratesG": 3.9,
+      "sugarsG": 2.6,
+      "fibreG": 1.2,
+      "proteinG": 0.9,
+      "saltG": 0.01
+    }
+  },
+  {
+    "id": "P006",
+    "name": "Carrots",
+    "category": "Fruit & Vegetables",
+    "price": 0.79,
+    "currency": "GBP",
+    "size": "1kg bag",
+    "image": "/assets/images/products/carrots.jpg",
+    "description": "Fresh carrots for roasting, soups or snacks.",
+    "ingredients": "Carrots.",
+    "dietary": [
+      "vegan",
+      "vegetarian",
+      "gluten-free",
+      "dairy-free"
+    ],
+    "allergens": [],
+    "mayContain": [],
+    "inStock": true,
+    "stockQuantity": 40,
+    "nutritionPer": "100g",
+    "nutrition": {
+      "energyKcal": 41,
+      "fatG": 0.2,
+      "saturatesG": 0,
+      "carbohydratesG": 10,
+      "sugarsG": 4.8,
+      "fibreG": 2.8,
+      "proteinG": 0.9,
+      "saltG": 0.17
+    }
+  },
+  {
+    "id": "P007",
+    "name": "Wholemeal Bread",
+    "category": "Bakery",
+    "price": 1.55,
+    "currency": "GBP",
+    "size": "800g loaf",
+    "image": "/assets/images/products/wholemeal-bread.jpg",
+    "description": "Sliced wholemeal wheat bread.",
+    "ingredients": "Wholemeal wheat flour, water, yeast, salt, rapeseed oil.",
+    "dietary": [
+      "vegan",
+      "vegetarian",
+      "dairy-free"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "mayContain": [
+      "sesame"
+    ],
+    "inStock": true,
+    "stockQuantity": 25,
+    "nutritionPer": "100g",
+    "nutrition": {
+      "energyKcal": 247,
+      "fatG": 3.5,
+      "saturatesG": 0.6,
+      "carbohydratesG": 41,
+      "sugarsG": 4.5,
+      "fibreG": 7.0,
+      "proteinG": 9.5,
+      "saltG": 0.95
+    }
+  },
+  {
+    "id": "P008",
+    "name": "Butter Croissants",
+    "category": "Bakery",
+    "price": 2.25,
+    "currency": "GBP",
+    "size": "4 pack",
+    "image": "/assets/images/products/butter-croissants.jpg",
+    "description": "Flaky butter croissants.",
+    "ingredients": "Wheat flour, butter (milk), water, sugar, egg, yeast, salt.",
+    "dietary": [
+      "vegetarian"
+    ],
+    "allergens": [
+      "gluten",
+      "milk",
+      "egg"
+    ],
+    "mayContain": [
+      "soy",
+      "tree-nuts"
+    ],
+    "inStock": true,
+    "stockQuantity": 12,
+    "nutritionPer": "100g",
+    "nutrition": {
+      "energyKcal": 406,
+      "fatG": 21,
+      "saturatesG": 13,
+      "carbohydratesG": 45,
+      "sugarsG": 7,
+      "fibreG": 2.0,
+      "proteinG": 8.0,
+      "saltG": 1.1
+    }
+  },
+  {
+    "id": "P009",
+    "name": "Unsweetened Oat Drink",
+    "category": "Dairy & Alternatives",
+    "price": 1.65,
+    "currency": "GBP",
+    "size": "1 litre carton",
+    "image": "/assets/images/products/oat-drink.jpg",
+    "description": "Plant-based oat drink with no added sugar.",
+    "ingredients": "Water, oats, rapeseed oil, salt.",
+    "dietary": [
+      "vegan",
+      "vegetarian",
+      "dairy-free"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "mayContain": [
+      "soy"
+    ],
+    "inStock": true,
+    "stockQuantity": 33,
+    "nutritionPer": "100ml",
+    "nutrition": {
+      "energyKcal": 46,
+      "fatG": 1.5,
+      "saturatesG": 0.2,
+      "carbohydratesG": 6.7,
+      "sugarsG": 3.0,
+      "fibreG": 0.8,
+      "proteinG": 1.0,
+      "saltG": 0.1
+    }
+  },
+  {
+    "id": "P010",
+    "name": "Semi-Skimmed Milk",
+    "category": "Dairy & Alternatives",
+    "price": 1.55,
+    "currency": "GBP",
+    "size": "2 litres",
+    "image": "/assets/images/products/semi-skimmed-milk.jpg",
+    "description": "Fresh British semi-skimmed cow’s milk.",
+    "ingredients": "Semi-skimmed cow’s milk.",
+    "dietary": [
+      "vegetarian",
+      "gluten-free"
+    ],
+    "allergens": [
+      "milk"
+    ],
+    "mayContain": [],
+    "inStock": true,
+    "stockQuantity": 21,
+    "nutritionPer": "100ml",
+    "nutrition": {
+      "energyKcal": 47,
+      "fatG": 1.7,
+      "saturatesG": 1.0,
+      "carbohydratesG": 4.8,
+      "sugarsG": 4.8,
+      "fibreG": 0,
+      "proteinG": 3.6,
+      "saltG": 0.11
+    }
+  },
+  {
+    "id": "P011",
+    "name": "Mature Cheddar Cheese",
+    "category": "Dairy & Alternatives",
+    "price": 2.75,
+    "currency": "GBP",
+    "size": "250g block",
+    "image": "/assets/images/products/cheddar-cheese.jpg",
+    "description": "Mature cheddar with a rich, savoury flavour.",
+    "ingredients": "Pasteurised milk, salt, vegetarian starter cultures, vegetarian rennet.",
+    "dietary": [
+      "vegetarian",
+      "gluten-free"
+    ],
+    "allergens": [
+      "milk"
+    ],
+    "mayContain": [],
+    "inStock": true,
+    "stockQuantity": 16,
+    "nutritionPer": "100g",
+    "nutrition": {
+      "energyKcal": 416,
+      "fatG": 34.9,
+      "saturatesG": 21.7,
+      "carbohydratesG": 0.1,
+      "sugarsG": 0.1,
+      "fibreG": 0,
+      "proteinG": 25.4,
+      "saltG": 1.8
+    }
+  },
+  {
+    "id": "P012",
+    "name": "Greek-Style Natural Yogurt",
+    "category": "Dairy & Alternatives",
+    "price": 2.1,
+    "currency": "GBP",
+    "size": "500g tub",
+    "image": "/assets/images/products/greek-yogurt.jpg",
+    "description": "Thick and creamy plain Greek-style yogurt.",
+    "ingredients": "Pasteurised milk, live yogurt cultures.",
+    "dietary": [
+      "vegetarian",
+      "gluten-free"
+    ],
+    "allergens": [
+      "milk"
+    ],
+    "mayContain": [],
+    "inStock": true,
+    "stockQuantity": 19,
+    "nutritionPer": "100g",
+    "nutrition": {
+      "energyKcal": 97,
+      "fatG": 5.0,
+      "saturatesG": 3.4,
+      "carbohydratesG": 3.8,
+      "sugarsG": 3.8,
+      "fibreG": 0,
+      "proteinG": 9.0,
+      "saltG": 0.1
+    }
+  },
+  {
+    "id": "P013",
+    "name": "Chicken Breast Fillets",
+    "category": "Meat & Fish",
+    "price": 4.95,
+    "currency": "GBP",
+    "size": "500g pack",
+    "image": "/assets/images/products/chicken-breast.jpg",
+    "description": "Fresh boneless, skinless chicken breast fillets.",
+    "ingredients": "Chicken breast (100%).",
+    "dietary": [
+      "gluten-free",
+      "dairy-free"
+    ],
+    "allergens": [],
+    "mayContain": [],
+    "inStock": true,
+    "stockQuantity": 14,
+    "nutritionPer": "100g",
+    "nutrition": {
+      "energyKcal": 110,
+      "fatG": 1.8,
+      "saturatesG": 0.5,
+      "carbohydratesG": 0,
+      "sugarsG": 0,
+      "fibreG": 0,
+      "proteinG": 23.0,
+      "saltG": 0.12
+    }
+  },
+  {
+    "id": "P014",
+    "name": "Salmon Fillets",
+    "category": "Meat & Fish",
+    "price": 5.5,
+    "currency": "GBP",
+    "size": "2 fillets (240g)",
+    "image": "/assets/images/products/salmon-fillets.jpg",
+    "description": "Fresh salmon fillets, suitable for oven baking.",
+    "ingredients": "Salmon (fish) (100%).",
+    "dietary": [
+      "gluten-free",
+      "dairy-free"
+    ],
+    "allergens": [
+      "fish"
+    ],
+    "mayContain": [],
+    "inStock": true,
+    "stockQuantity": 8,
+    "nutritionPer": "100g",
+    "nutrition": {
+      "energyKcal": 208,
+      "fatG": 13,
+      "saturatesG": 3.1,
+      "carbohydratesG": 0,
+      "sugarsG": 0,
+      "fibreG": 0,
+      "proteinG": 20,
+      "saltG": 0.15
+    }
+  },
+  {
+    "id": "P015",
+    "name": "Free-Range Eggs",
+    "category": "Eggs",
+    "price": 2.65,
+    "currency": "GBP",
+    "size": "6 large eggs",
+    "image": "/assets/images/products/free-range-eggs.jpg",
+    "description": "Six large free-range chicken eggs.",
+    "ingredients": "Eggs.",
+    "dietary": [
+      "vegetarian",
+      "gluten-free",
+      "dairy-free"
+    ],
+    "allergens": [
+      "egg"
+    ],
+    "mayContain": [],
+    "inStock": true,
+    "stockQuantity": 42,
+    "nutritionPer": "100g",
+    "nutrition": {
+      "energyKcal": 143,
+      "fatG": 9.5,
+      "saturatesG": 3.1,
+      "carbohydratesG": 0.7,
+      "sugarsG": 0.4,
+      "fibreG": 0,
+      "proteinG": 12.6,
+      "saltG": 0.35
+    }
+  },
+  {
+    "id": "P016",
+    "name": "Wholewheat Spaghetti",
+    "category": "Pantry",
+    "price": 1.2,
+    "currency": "GBP",
+    "size": "500g pack",
+    "image": "/assets/images/products/wholewheat-spaghetti.jpg",
+    "description": "Dried wholewheat spaghetti pasta.",
+    "ingredients": "Wholewheat durum wheat semolina, water.",
+    "dietary": [
+      "vegan",
+      "vegetarian",
+      "dairy-free"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "mayContain": [
+      "egg",
+      "soy"
+    ],
+    "inStock": true,
+    "stockQuantity": 24,
+    "nutritionPer": "100g",
+    "nutrition": {
+      "energyKcal": 350,
+      "fatG": 2.2,
+      "saturatesG": 0.5,
+      "carbohydratesG": 65,
+      "sugarsG": 3.5,
+      "fibreG": 8.0,
+      "proteinG": 13.0,
+      "saltG": 0.02
+    }
+  },
+  {
+    "id": "P017",
+    "name": "Chickpeas in Water",
+    "category": "Pantry",
+    "price": 0.75,
+    "currency": "GBP",
+    "size": "400g tin",
+    "image": "/assets/images/products/chickpeas.jpg",
+    "description": "Cooked chickpeas in water, great for curries and salads.",
+    "ingredients": "Chickpeas, water, salt.",
+    "dietary": [
+      "vegan",
+      "vegetarian",
+      "gluten-free",
+      "dairy-free"
+    ],
+    "allergens": [],
+    "mayContain": [],
+    "inStock": false,
+    "stockQuantity": 0,
+    "nutritionPer": "100g",
+    "nutrition": {
+      "energyKcal": 119,
+      "fatG": 2.0,
+      "saturatesG": 0.2,
+      "carbohydratesG": 15.0,
+      "sugarsG": 0.5,
+      "fibreG": 6.0,
+      "proteinG": 6.5,
+      "saltG": 0.25
+    }
+  },
+  {
+    "id": "P018",
+    "name": "Crunchy Peanut Butter",
+    "category": "Pantry",
+    "price": 2.3,
+    "currency": "GBP",
+    "size": "340g jar",
+    "image": "/assets/images/products/peanut-butter.jpg",
+    "description": "Crunchy roasted peanut spread.",
+    "ingredients": "Roasted peanuts (98%), salt.",
+    "dietary": [
+      "vegan",
+      "vegetarian",
+      "dairy-free"
+    ],
+    "allergens": [
+      "peanuts"
+    ],
+    "mayContain": [
+      "tree-nuts"
+    ],
+    "inStock": true,
+    "stockQuantity": 17,
+    "nutritionPer": "100g",
+    "nutrition": {
+      "energyKcal": 599,
+      "fatG": 49,
+      "saturatesG": 7.0,
+      "carbohydratesG": 22,
+      "sugarsG": 6.0,
+      "fibreG": 8.0,
+      "proteinG": 25.0,
+      "saltG": 0.55
+    }
+  },
+  {
+    "id": "P019",
+    "name": "Firm Tofu",
+    "category": "Pantry",
+    "price": 2.0,
+    "currency": "GBP",
+    "size": "280g pack",
+    "image": "/assets/images/products/firm-tofu.jpg",
+    "description": "Firm tofu for stir-fries and high-protein meals.",
+    "ingredients": "Water, soybeans, calcium sulfate.",
+    "dietary": [
+      "vegan",
+      "vegetarian",
+      "gluten-free",
+      "dairy-free"
+    ],
+    "allergens": [
+      "soy"
+    ],
+    "mayContain": [
+      "sesame"
+    ],
+    "inStock": true,
+    "stockQuantity": 22,
+    "nutritionPer": "100g",
+    "nutrition": {
+      "energyKcal": 144,
+      "fatG": 8.7,
+      "saturatesG": 1.3,
+      "carbohydratesG": 2.8,
+      "sugarsG": 0.7,
+      "fibreG": 1.2,
+      "proteinG": 15.0,
+      "saltG": 0.02
+    }
+  },
+  {
+    "id": "P020",
+    "name": "Frozen Mixed Berries",
+    "category": "Frozen",
+    "price": 3.25,
+    "currency": "GBP",
+    "size": "500g bag",
+    "image": "/assets/images/products/frozen-berries.jpg",
+    "description": "A frozen mix of strawberries, raspberries and blueberries.",
+    "ingredients": "Strawberries, raspberries, blueberries.",
+    "dietary": [
+      "vegan",
+      "vegetarian",
+      "gluten-free",
+      "dairy-free"
+    ],
+    "allergens": [],
+    "mayContain": [],
+    "inStock": true,
+    "stockQuantity": 13,
+    "nutritionPer": "100g",
+    "nutrition": {
+      "energyKcal": 50,
+      "fatG": 0.4,
+      "saturatesG": 0.1,
+      "carbohydratesG": 12,
+      "sugarsG": 7.2,
+      "fibreG": 4.0,
+      "proteinG": 1.0,
+      "saltG": 0.01
+    }
+  }
+]

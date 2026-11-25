@@ -1,5 +1,9 @@
 const productGrid = document.getElementById("product-grid");
 const productCount = document.getElementById("product-count");
+const categoryButtons = document.querySelectorAll(".category-button");
+
+let allProducts = [];
+let selectedCategory = "all";
 
 // Load product data from the JSON file
 async function loadProducts() {
@@ -10,15 +14,53 @@ async function loadProducts() {
             throw new Error("Unable to load products");
         }
 
-        const products = await response.json();
+        allProducts = await response.json();
 
-        displayProducts(products);
+        applyFilters();
 
     } catch (error) {
         console.error(error);
         productCount.textContent = "Sorry, products could not be loaded.";
     }
 }
+
+// Display products matching the selected category
+function applyFilters() {
+    let filteredProducts;
+
+    if (selectedCategory === "all") {
+        filteredProducts = allProducts;
+    } else {
+        filteredProducts = allProducts.filter(product =>
+            product.category === selectedCategory
+        );
+    }
+
+    displayProducts(filteredProducts);
+}
+
+// Handle category button selection
+categoryButtons.forEach(function(button) {
+
+    button.addEventListener("click", () => {
+
+        if (allProducts.length === 0) return;
+
+        selectedCategory = button.dataset.category;
+
+        categoryButtons.forEach(categoryButton => {
+
+            const isSelected = categoryButton === button;
+
+            categoryButton.setAttribute(
+                "aria-pressed",
+                String(isSelected)
+            );
+        });
+
+        applyFilters();
+    });
+});
 
 // Display products in the catalogue
 function displayProducts(products) {

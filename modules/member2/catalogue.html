@@ -7,6 +7,7 @@
 
     <link rel="stylesheet" href="../../assets/css/global.css">
     <link rel="stylesheet" href="catalogue.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
     <script src="../../assets/js/shared_main.js" defer></script>
     <script src="catalogue.js" defer></script>
@@ -15,9 +16,59 @@
     
     <div id="header"></div>
 
-     <main id="main-content" class="site-container page-content" tabindex="-1">
+    <main id="main-content" class="site-container page-content" tabindex="-1">
         <h1>Product catalogue</h1>
         <p>Browse our range of supermarket products.</p>
+
+        <!-- Quick category filtering -->
+        <section class="category-filter" aria-labelledby="category-heading">
+
+            <h2 id="category-heading">Shop by category</h2>
+
+            <div class="category-buttons" role="group" aria-label="Filter products by category">
+
+                <button type="button" class="category-button" data-category="all" aria-pressed="true">
+                    <i class="fa-solid fa-basket-shopping" aria-hidden="true"></i>
+                    <span>All products</span>
+                </button>
+
+                <button type="button" class="category-button" data-category="Fruit &amp; Vegetables" aria-pressed="false">
+                    <i class="fa-solid fa-apple-whole" aria-hidden="true"></i>
+                    <span>Fruit &amp; Vegetables</span>
+                </button>
+
+                <button type="button" class="category-button" data-category="Bakery" aria-pressed="false">
+                    <i class="fa-solid fa-bread-slice" aria-hidden="true"></i>
+                    <span>Bakery</span>
+                </button>
+
+                <button type="button" class="category-button" data-category="Dairy &amp; Alternatives" aria-pressed="false">
+                    <i class="fa-solid fa-cheese" aria-hidden="true"></i>
+                    <span>Dairy &amp; Alternatives</span>
+                </button>
+
+                <button type="button" class="category-button" data-category="Meat &amp; Fish" aria-pressed="false">
+                    <i class="fa-solid fa-fish" aria-hidden="true"></i>
+                    <span>Meat &amp; Fish</span>
+                </button>
+
+                <button type="button" class="category-button" data-category="Eggs" aria-pressed="false">
+                    <i class="fa-solid fa-egg" aria-hidden="true"></i>
+                    <span>Eggs</span>
+                </button>
+
+                <button type="button" class="category-button" data-category="Pantry" aria-pressed="false">
+                    <i class="fa-solid fa-box-open" aria-hidden="true"></i>
+                    <span>Pantry</span>
+                </button>
+
+                <button type="button" class="category-button" data-category="Frozen" aria-pressed="false">
+                    <i class="fa-solid fa-snowflake" aria-hidden="true"></i>
+                    <span>Frozen</span>
+                </button>
+
+            </div>
+        </section>
 
         <p id="product-count" role="status">
             Loading products...

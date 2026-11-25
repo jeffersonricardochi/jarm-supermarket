@@ -1,9 +1,9 @@
+
 /* Product catalogue grid */
 .product-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 220px), 1fr));
     gap: 20px;
-
     list-style: none;
     padding: 0;
     margin: 24px 0;
@@ -11,6 +11,9 @@
 
 /* Individual product cards */
 .product-card {
+    width: 100%;
+    max-width: 280px;
+    box-sizing: border-box;
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 16px;
@@ -62,5 +65,67 @@
     .product-card:hover {
         border-color: #777;
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    }
+}
+
+/* CATEGORY FILTERS */
+
+.category-filter {
+    margin: 32px 0;
+}
+
+.category-filter h2 {
+    margin-bottom: 16px;
+}
+
+/* Responsive button grid */
+.category-buttons {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 140px), 1fr));
+    gap: 12px;
+}
+
+/* Individual category buttons */
+.category-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    min-height: 120px;
+    padding: 16px 10px;
+    border: 2px solid #d6dfda;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #222;
+    font: inherit;
+    font-weight: 600;
+    text-align: center;
+    overflow-wrap: anywhere;
+    cursor: pointer;
+}
+
+.category-button i {
+    font-size: 2rem;
+    line-height: 1;
+}
+
+/* Selected category */
+.category-button[aria-pressed="true"] {
+    background-color: #175b46;
+    color: #fff;
+    border-color: #175b46;
+}
+
+.category-button[aria-pressed="true"] span {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+/* Hover for mouse users */
+@media (hover: hover) {
+    .category-button:hover {
+        border-color: #175b46;
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
     }
 }

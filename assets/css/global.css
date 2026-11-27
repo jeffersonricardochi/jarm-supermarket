@@ -1,3 +1,4 @@
+/****************************************************************** made by Angel*/
 /* Shared styles: every member links to this stylesheet. */
 :root {
     --jarm-green: #07552f;
@@ -154,3 +155,68 @@ h1 {
 #header {
     flex-shrink: 0;
 }
+/****************************************************************** made by Angel*/
+/****************************************************************** made by Jeff*/
+.site-footer {
+    background-color: green;
+    color: red;
+    font-family: Arial, sans-serif;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.footer-newletter-container{
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    background-color: purple;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-section-container{
+    display: flex;
+    background-color: yellow;
+    align-items: center;
+    justify-content: center;
+    border: 5px;
+}
+
+.footer-section{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 25%;
+    min-width: 300px;
+    display: flex;
+    background-color: orange;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-section ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer-info-container{
+    min-width: 50px;
+    display: flex;
+    background-color: purple;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-payment-social-container{
+    min-width: 50px;
+    display: flex;
+    background-color: cyan;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/****************************************************************** made by Jeff*/

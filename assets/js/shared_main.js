@@ -16,8 +16,8 @@ async function loadComponent(id, file) {
     }
 }
 
-async function initialiseLayout() {
-    await loadComponent("header", "/components/header.html");
+async function initialiseLayout(selector, filePath) {
+    await loadComponent(selector, filePath);
     const currentPage = window.location.pathname.split("/").pop() || "index.html";
     document.querySelectorAll("#header nav a").forEach(link => {
         if (link.getAttribute("href").split("/").pop() === currentPage) {
@@ -26,4 +26,5 @@ async function initialiseLayout() {
     });
 }
 
-initialiseLayout();
+initialiseLayout("header", "/components/header.html");
+initialiseLayout("footer", "/components/footer.html");
